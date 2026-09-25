@@ -5,7 +5,7 @@
 
 Projeto avaliativo de ciência de dados para prever falhas mecânicas em equipamentos industriais a partir de medições de sensores. O alvo é `falha_maquina` (0: funcionamento normal; 1: falha).
 
-> **Estado:** preparação do repositório (P01). O pipeline, os resultados e a comparação dos modelos ainda serão desenvolvidos pelo estudante.
+> **Estado:** P01 concluída; P02 em andamento (contrato de dados). O pipeline, os resultados e a comparação dos modelos ainda serão desenvolvidos pelo estudante.
 
 ## Objetivo e escopo
 
