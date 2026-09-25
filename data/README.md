@@ -1,11 +1,7 @@
 # Dados do projeto
 
-O arquivo de entrada é `manutencao_preditiva.csv`, disponibilizado na [pasta da atividade](https://drive.google.com/drive/folders/1_QcYvhSoJO6SxOJz8Om6gaVuWyPZKdMs?usp=sharing). Os arquivos originais da atividade são obtidos diretamente dessa fonte e não estão versionados neste repositório.
+O arquivo `manutencao_preditiva.csv` está versionado nesta pasta para permitir a execução do notebook após o clone. A [pasta original da atividade](https://drive.google.com/drive/folders/1_QcYvhSoJO6SxOJz8Om6gaVuWyPZKdMs?usp=sharing) registra sua procedência.
 
-## Preparar a base
+O notebook principal fica na raiz do repositório e usa o caminho relativo `data/manutencao_preditiva.csv`. Preserve o arquivo original para que a análise possa ser reproduzida. Se a cópia local estiver ausente, obtenha o CSV na pasta original e salve-o com esse mesmo nome e caminho.
 
-1. Baixe `manutencao_preditiva.csv` na pasta da atividade.
-2. Coloque o arquivo nesta pasta, com o caminho `data/manutencao_preditiva.csv` a partir da raiz do repositório.
-3. Execute o notebook a partir da raiz do repositório para preservar esse caminho relativo.
-
-Consulte também as [anotações do Departamento de Engenharia](https://docs.google.com/document/d/10kqhfNOqpKw4do3XujfBfHKp29TZ0jgJ1FRJOMNUpcM/edit) ao interpretar as colunas. Uma cópia local dessas anotações pode ficar em `referencias/`; ela não é necessária para abrir o CSV.
+As [anotações do Departamento de Engenharia](https://docs.google.com/document/d/10kqhfNOqpKw4do3XujfBfHKp29TZ0jgJ1FRJOMNUpcM/edit) são uma referência para interpretar as colunas. Elas podem ser consultadas pelo link ou guardadas localmente em `referencias/`; o documento não está versionado.
