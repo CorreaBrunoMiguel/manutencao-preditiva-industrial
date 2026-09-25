@@ -15,13 +15,13 @@ A solução será organizada em um único notebook Jupyter. O trabalho previsto 
 
 - [Enunciado original do projeto](https://docs.google.com/document/d/1z5z3OLMUzl7k6qD7WMYlLhUIDJF4-S9tVqKTtG7mgUA/edit).
 - [Pasta com o CSV e as anotações de Engenharia](https://drive.google.com/drive/folders/1_QcYvhSoJO6SxOJz8Om6gaVuWyPZKdMs?usp=sharing).
-- [Instruções para obter e posicionar os dados](data/README.md). Os arquivos originais da atividade não são versionados neste repositório.
+- [Procedência e uso do CSV](data/README.md). A base está versionada em `data/`; as anotações de Engenharia permanecem acessíveis na fonte original.
 
 ## Estrutura em preparação
 
 - `manutencao_preditiva_industrial.ipynb`: notebook principal.
 - `data/README.md`: procedência e instruções para obter o CSV.
-- `data/manutencao_preditiva.csv`: base local, obtida da fonte indicada acima.
+- `data/manutencao_preditiva.csv`: base original versionada para execução do notebook.
 - `requirements.txt`: versões das dependências Python utilizadas.
 - `referencias/`: cópia local opcional das anotações de Engenharia.
 
@@ -35,7 +35,7 @@ cd manutencao-preditiva-industrial
 python -m pip install -r requirements.txt
 ```
 
-Baixe o CSV conforme `data/README.md`. Na raiz do repositório, execute `jupyter lab` e abra `manutencao_preditiva_industrial.ipynb`. O notebook foi criado com um kernel local chamado `Python SC_TECH`; se ele não existir na sua máquina, selecione no JupyterLab o kernel Python 3.13 do ambiente onde instalou `requirements.txt`. Durante o desenvolvimento, o notebook ainda não contém a solução completa.
+O CSV já está em `data/`. Na raiz do repositório, execute `jupyter lab` e abra `manutencao_preditiva_industrial.ipynb`. O notebook foi criado com um kernel local chamado `Python SC_TECH`; se ele não existir na sua máquina, selecione no JupyterLab o kernel Python 3.13 do ambiente onde instalou `requirements.txt`. Durante o desenvolvimento, o notebook ainda não contém a solução completa.
 
 ## Acompanhamento
 
