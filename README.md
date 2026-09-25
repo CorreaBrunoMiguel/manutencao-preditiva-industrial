@@ -1,5 +1,8 @@
 # Manutenção Preditiva Industrial
 
+**Formação:** Carreira Tech - Trilha de Inteligência Artificial  
+**Módulo 1:** Fundamentos de Dados, Programação e Análise Preditiva com Python
+
 Projeto avaliativo de ciência de dados para prever falhas mecânicas em equipamentos industriais a partir de medições de sensores. O alvo é `falha_maquina` (0: funcionamento normal; 1: falha).
 
 > **Estado:** preparação do repositório (P01). O pipeline, os resultados e a comparação dos modelos ainda serão desenvolvidos pelo estudante.
@@ -24,17 +27,15 @@ A solução será organizada em um único notebook Jupyter. O trabalho previsto 
 
 ## Preparar e abrir
 
-Requer Git, Conda e Python 3.13. No terminal:
+Requer Git, Python 3.13 e `pip`. Conda ou um ambiente virtual podem ser usados para isolar as dependências, mas não são obrigatórios. Com Python 3.13 ativo, no terminal:
 
 ```bash
 git clone https://github.com/CorreaBrunoMiguel/manutencao-preditiva-industrial.git
 cd manutencao-preditiva-industrial
-conda create -n manutencao-preditiva python=3.13
-conda activate manutencao-preditiva
 python -m pip install -r requirements.txt
 ```
 
-Baixe o CSV conforme `data/README.md`. Com o ambiente ativo e na raiz do repositório, execute `jupyter lab` e abra `manutencao_preditiva_industrial.ipynb`. Durante o desenvolvimento, o notebook ainda não contém a solução completa.
+Baixe o CSV conforme `data/README.md`. Na raiz do repositório, execute `jupyter lab` e abra `manutencao_preditiva_industrial.ipynb`. Durante o desenvolvimento, o notebook ainda não contém a solução completa.
 
 ## Acompanhamento
 
