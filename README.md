@@ -35,7 +35,7 @@ cd manutencao-preditiva-industrial
 python -m pip install -r requirements.txt
 ```
 
-Baixe o CSV conforme `data/README.md`. Na raiz do repositório, execute `jupyter lab` e abra `manutencao_preditiva_industrial.ipynb`. Durante o desenvolvimento, o notebook ainda não contém a solução completa.
+Baixe o CSV conforme `data/README.md`. Na raiz do repositório, execute `jupyter lab` e abra `manutencao_preditiva_industrial.ipynb`. O notebook foi criado com um kernel local chamado `Python SC_TECH`; se ele não existir na sua máquina, selecione no JupyterLab o kernel Python 3.13 do ambiente onde instalou `requirements.txt`. Durante o desenvolvimento, o notebook ainda não contém a solução completa.
 
 ## Acompanhamento
 
